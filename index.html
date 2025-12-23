@@ -4,8 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/utility.css" />
   </head>
-  <body>
-    <h1>Spotify</h1>
+  <body class="">
+    <div class="container flex">
+      <div class="left bg-black rounded">
+        <div class="home m-1 bg-gray p-2">
+          <ul class="flex flex-col">
+            <li>
+              <img
+                src="./assets/logo.svg"
+                class="invert"
+                style="width: 120px"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/search.svg"
+                class="invert"
+                alt="search"
+              />Search<Search></Search>
+            </li>
+            <!-- <li><img src="./assets/home.svg" class="invert" alt="home" /></li>
+            <li><img src="./assets/home.svg" class="invert" alt="home" /></li> -->
+          </ul>
+        </div>
+        <div class="library bg-black rounded m-1">
+          <div
+            class="heading flex bg-gray items-center justify-space-between p-2"
+          >
+            <img src="./assets/playlist.svg" alt="" class="invert" /><span
+              >Library</span
+            >
+            <img src="./assets/plus.svg" class="invert" />
+          </div>
+        </div>
+      </div>
+      <div class="right bg-black rounded">
+        <div class="bg-gray p-1">kishan</div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,47 @@
+.border {
+  border: 2px solid red;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.bg-black {
+  background-color: #000;
+}
+.invert {
+  filter: invert(1);
+}
+.bg-gray {
+  background-color: #121212;
+}
+.rounded {
+  border-radius: 8px;
+}
+.m-1 {
+  margin: 5px;
+}
+.p-1 {
+  padding: 10px;
+}
+.p-2 {
+  padding: 20px;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+ul {
+  gap: 10px;
+}
+ul li {
+  list-style: none;
+  display: flex;
+  gap: 3px;
+}
